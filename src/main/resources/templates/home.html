@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    
+ <head>
+    <link th:href="@{\css\bootstrap.min.css}" rel="stylesheet" />
+   <title>Taco Cloud</title>
+ </head>
+
+ <body>
+    <div class="container">
+   <h1>Welcome to...</h1>
+   <img th:src="@{\images\tacocloud.jpg}" />
+      <a th:href="@{/design}" class="btn btn-secondary">Design tacos!</a>
+
+   </div>
+   <script th:src="@{\js\bootstrap.bundle.min.js}">
+      
+</script>
+ </body>
+</html>
